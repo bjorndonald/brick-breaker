@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    h4 {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .board-wrapper {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .board-game {
+            border-width: 1px;
+            border-style: solid;
+            position: relative;
+
+            #angle {
+                position: absolute;
+                background-color: black;
+                height: 1px;
+                width: 80px;
+                z-index: 200;
+            }
+
+            #ball {
+                position: absolute;
+                border-radius: 50%;
+                background-color: black;
+            }
+
+            .block {
+                position: absolute;
+                background-color: black;
+            }
+
+            #bat {
+                position: absolute;
+                top: 80%;
+                background-color: black;
+            }
+        }
+    }
+}
