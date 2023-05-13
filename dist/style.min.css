@@ -34,7 +34,7 @@ body .board-wrapper .board-game #angle {
   width: 80px;
   z-index: 200;
 }
-body .board-wrapper .board-game #ball {
+body .board-wrapper .board-game .ball {
   position: absolute;
   border-radius: 50%;
   background-color: black;

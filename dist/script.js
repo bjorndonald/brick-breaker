@@ -1,4 +1,4 @@
-var board = new Board({
+var bricks = new BrickBreaker({
     width: 500,
     height: 500,
     defaultPosition: {
@@ -10,5 +10,3 @@ var board = new Board({
     ballSize: 10,
     id: "brick-breaker"
 } )
-
-board.setup();
